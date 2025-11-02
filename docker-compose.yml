@@ -23,6 +23,7 @@ services:
     - weblate-cache:/app/cache
     env_file:
     - ./environment
+    - komodo.env
     restart: always
     read_only: true
     tmpfs:

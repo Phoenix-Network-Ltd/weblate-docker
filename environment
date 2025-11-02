@@ -5,6 +5,7 @@
 WEBLATE_DEBUG=0
 WEBLATE_LOGLEVEL=INFO
 WEBLATE_SITE_TITLE=Translate | Phoenix Network
+WEBLATE_SITE_DOMAIN=translate.phoenixnetwork.net
 WEBLATE_ADMIN_NAME=admin
 WEBLATE_ADMIN_EMAIL=translate@phoenixnetwork.net
 # WEBLATE_ADMIN_PASSWORD=
