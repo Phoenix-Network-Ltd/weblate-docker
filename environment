@@ -58,7 +58,10 @@ REDIS_HOST=cache
 REDIS_PORT=6379
 
 # Mail server, the server has to listen on port 587 and understand TLS
-WEBLATE_EMAIL_HOST=mail.smtp2go.com
+WEBLATE_EMAIL_HOST=smtp.smtp2go.com
+WEBLATE_EMAIL_PORT=2525
+WEBLATE_EMAIL_USE_TLS=1
+WEBLATE_EMAIL_USE_SSL=0
 # Do NOT use quotes here
 # WEBLATE_EMAIL_HOST_USER=
 # Do NOT use quotes here
